@@ -1,0 +1,348 @@
+body {
+    background: linear-gradient(to right, lightblue, lightsteelblue);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+
+}
+
+
+nav ul {
+    display: flex;
+    gap: 70px;
+    padding-top: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    flex: 1;
+
+    a {
+        text-decoration: none;
+        color: royalblue;
+        font-weight: bold;
+    }
+}
+
+.logo {
+    color: royalblue;
+    align-self: center;
+    font-size: 35px;
+    font-family: "Bauhaus 93";
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: midnightblue;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+
+.contact {
+    background-color: gray;
+    padding: 10px 25px;
+    margin-top: -10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px darkgrey;
+
+    a {
+        color: white;
+    }
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.hero {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 130px;
+}
+
+.hero img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px dotted royalblue;
+    box-shadow: 0 0 40px lightskyblue;
+
+}
+
+.hero img:hover {
+    box-shadow: 0 0 40px midnightblue;
+    transition: 0.4s;
+}
+
+.hero-content {
+    background: linear-gradient(to right, lightcyan, lightsteelblue);
+    box-shadow: 3px 3px 10px dimgray;
+    width: 45%;
+    height: 300px;
+    padding: 20px;
+
+    h1 {
+        font-family: "Roboto Thin";
+        color: royalblue;
+        font-size: 38px;
+    }
+
+    h2 {
+        font-weight: normal;
+        font-size: 18px;
+        width: 60%;
+
+    }
+}
+
+.hero-content:hover {
+    box-shadow: 3px 3px 10px midnightblue;
+    transition: 0.5s;
+}
+
+
+.button div {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 520px;
+    background: linear-gradient(to right, grey, cornflowerblue);
+    box-shadow: 2px 2px 10px grey;
+}
+
+.button div:hover{
+    text-decoration: underline;
+}
+
+.biography {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    height:570px;
+    margin: auto;
+}
+
+.biography .feature-text {
+    display: flex;
+    width: 90%;
+    margin: 100px auto 0 auto;
+
+}
+
+.feature {
+    flex: 1;
+    padding: 60px;
+}
+
+.feature:first-child {
+    color: dimgrey;
+    text-align: justify;
+    margin: auto;
+
+    p {
+        border-top: 1px dashed gray;
+        border-bottom: 1px dashed gray;
+    }
+}
+
+.section-title {
+    margin-left: 130px;
+    color: royalblue;
+    margin-bottom: -50px;
+    text-decoration: underline;
+}
+
+
+.feature:last-child {
+    background-color: lightsteelblue;
+    box-shadow: 2px 2px 10px grey;
+    color: dimgrey;
+    margin: auto;
+}
+
+.obrazovanie-content {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+    .section-title {
+        margin-left: -15px;
+    }
+}
+
+
+.obrazovanie{
+    border-bottom: 2px solid gray;
+}
+
+
+.obrazovanie .grid {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    text-align: center;
+
+    p {
+        color: dimgrey;
+    }
+}
+
+.card {
+    flex: 1;
+    background-color: lightsteelblue;
+    padding: 20px;
+    box-shadow: 2px 2px 10px grey;
+
+    h3 {
+        color: cornflowerblue;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    border-radius: 10px;
+}
+
+
+
+
+.hobi-feature {
+    padding-top: 170px;
+    width: 81%;
+    margin: auto;
+    color: dimgrey;
+    display: flex;
+    height:470px;
+    text-align: center;
+}
+
+.hobi-feature div{
+    flex:1;
+}
+
+.hobi-feature div:nth-child(2) {
+    margin-left:250px;
+    margin-top:-60px;
+}
+
+.hobi-content p{
+    background-color: lightsteelblue;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.socialinsta{
+    display: flex;
+    p{
+        font-size: 12px;
+        margin-top:30px;
+        margin-right: 300px;
+        position: relative;
+        right: 35px;
+        top:39px;
+    }
+
+}
+.insta{
+    margin-top:60px;
+
+}
+.socialinsta p:hover{
+    color: midnightblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-form {
+    h2{
+        margin-left: 65px;
+        text-decoration: underline;
+    }
+    width: 21%;
+    padding: 30px;
+    margin: auto;
+    input, textarea {
+        width:300px;
+        border-radius: 10px;
+        background-color: lightgrey;
+        box-shadow: 2px 2px 10px black;
+
+    }
+    textarea {
+        height: 50px;
+    }
+    input{
+        height: 20px;
+    }
+    button{
+        border-radius: 10px;
+        background-color: lightgrey;
+    }
+}
+
+.contact-form button:active{
+    background-color: lightblue;
+}
+
+.contact-info p{
+    font-size: 13px;
+}
+
+.contact-form{
+    border: 1px dashed black;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    margin-top:40px;
+
+}
+
+.obrlogos img{
+    mix-blend-mode: darken;
+    width:40px;
+    height:40px;
+}
+
+.obrlogos img:hover{
+    mix-blend-mode: color-burn;
+}
+.obrlogos img:nth-child(1){
+    padding-right: 8px;
+}
+.obrlogos img:nth-child(2){
+    width:30px;
+    height:30px;
+    position:relative;
+    top:-4px;
+}
+
+.obrlogos img:nth-child(3){
+    width:50px;
+    height:30px;
+    position:relative;
+    top:-4px;
+}
+
+.obrlogos img:nth-child(4){
+    width:26px;
+    height:26px;
+    position:relative;
+    top:-5px;
+}
+.obrlogos{
+    margin-left:490px;
+
+    padding:40px 5px 0px 5px;
+    div{
+        padding:5px;
+        width:175px;
+        border:1px dashed gray;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px gray;
+    }
+}
+
+
